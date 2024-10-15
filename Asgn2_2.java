@@ -22,32 +22,44 @@ public class Asgn2_2 {
 	public static void main(String[] args) {
 		int res;
 		int count = 0;
-		
+		int quantity = 1;
+		Scanner sc = new Scanner(System.in);
 		while( (res = menu()) != 0) {
 			switch (res) {
 			case 1:
+				
 				System.out.println("Dosa : 50");
-				count = count + 50;
+				System.out.print("Enter quantity : ");
+				quantity = sc.nextInt();
+				count = count + (50 * quantity);
 				break;
 				
 			case 2:
 				System.out.println("Idli : 25");
-				count = count + 25;
+				System.out.print("Enter quantity : ");
+				quantity = sc.nextInt();
+				count = count +(25 * quantity);
 				break;
 				
 			case 3:
 				System.out.println("Samosa : 15");
-				count = count + 15;
+				System.out.print("Enter quantity : ");
+				quantity = sc.nextInt();
+				count = count + (15 * quantity);
 				break;
 				
 			case 4:
 				System.out.println("Biryani : 150");
-				count = count + 150;
+				System.out.print("Enter quantity : ");
+				quantity = sc.nextInt();
+				count = count + (150 * quantity);
 				break;
 				
 			case 5:
 				System.out.println("Cake : 210");
-				count = count + 210;
+				System.out.print("Enter quantity : ");
+				quantity = sc.nextInt();
+				count = count + (210 * quantity);
 				break;
 				
 			case 6:
