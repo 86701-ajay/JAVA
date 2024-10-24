@@ -24,7 +24,7 @@ public class FruitBasket {
 		Scanner sc = new Scanner(System.in);
 		int choice = 0;
 		Fruits[] arr = new Fruits[3];
-		int cnt = 0;
+		int cnt = 0; 
 
 		while ((choice = menu(sc)) != 0) {
 			switch (choice) {
