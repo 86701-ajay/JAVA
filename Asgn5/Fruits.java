@@ -71,6 +71,8 @@ public abstract class Fruits {
 		weight = sc.nextDouble();
 		System.out.print("Enter isFresh : ");
 		isFresh = sc.nextBoolean();
+		
+
 	}
 
 }
